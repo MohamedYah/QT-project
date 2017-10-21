@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menuprincipale</class>
+ <widget class="QDialog" name="menuprincipale">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="quitterPB">
+   <property name="geometry">
+    <rect>
+     <x>524</x>
+     <y>380</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>quitter</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="precedentPB">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>380</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>precedent</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stockPB">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>stock</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clientPB">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>30</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>client</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="financePB">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>30</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>finance</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="afficherstockPB">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AfficherS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ajouterstockPB">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AjouterS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rechercherstockPB">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RechercherS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="supprimerstockPB">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SupprimerS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="modifierstockPB">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ModifierS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="afficherclientPB">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AfficherC</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ajouterclientPB">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AjouterC</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rechercherclientPB">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RechercherC</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="supprimerclientPB">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SupprimerC</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="modifierclientPB">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ModifierC</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="afficherfinancePB">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AfficherF</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ajouterfinancePB">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AjouterF</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rechercherfinancePB">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RechercherF</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="supprimerfinancePB">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SupprimerF</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="modifierfinancePB">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>70</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ModifierF</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
